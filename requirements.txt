@@ -1,0 +1,19 @@
+# Project Python dependencies
+# Django version is taken from the project settings header
+Django==5.0.6
+selenium
+beautifulsoup4
+pandas
+rich
+requests
+lxml
+urllib3
+unfold
+django-import-export
+django-guardian
+django-simple-history
+
+# Notes:
+# - Selenium requires a matching Chrome/Chromium browser and chromedriver installed on the system.
+#   The code expects chromedriver at /usr/bin/chromedriver.
+# - lxml may require system libraries (libxml2, libxslt) to be installed before pip installing.
